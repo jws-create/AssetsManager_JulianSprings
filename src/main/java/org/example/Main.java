@@ -13,5 +13,6 @@ public class Main {
 
         System.out.println(vehicle.getValue());
         System.out.println(house.getValue());
+        System.out.println("done");
     }
 }
