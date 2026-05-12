@@ -25,15 +25,15 @@ public class House extends Asset{
             BigDecimal pricePerSquareFeet = BigDecimal.valueOf(180);
             subtotal = squareF.multiply(pricePerSquareFeet);
         }
-        if(condition == 2){
+         else if(condition == 2){
             BigDecimal pricePerSquareFeet = BigDecimal.valueOf(130);
             subtotal = squareF.multiply(pricePerSquareFeet);
         }
-        if(condition == 3){
+         else if(condition == 3){
             BigDecimal pricePerSquareFeet = BigDecimal.valueOf(90);
             subtotal = squareF.multiply(pricePerSquareFeet);
         }
-        if(condition == 4){
+        else {
             BigDecimal pricePerSquareFeet = BigDecimal.valueOf(80);
             subtotal = squareF.multiply(pricePerSquareFeet);
         }
